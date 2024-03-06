@@ -6,8 +6,12 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-user = User.where(email: "test@test.com").first_or_initialize
+user = User.where(email: "adom.donatas@gmail.com").first_or_initialize
 user.update!(
-  password: "password",
-  password_confirmation: "password"
+  password: "?Fuksas510024!",
+  password_confirmation: "?Fuksas510024!"
 )
+
+# 100.times do |i|
+#   BlogPost.create title: "Blog Post #{i}", content: "Hello World!", published_at: Time.current
+# end
