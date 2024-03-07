@@ -1,6 +1,7 @@
 .pagy {
   display: flex;
   justify-content: center;
+  color: #191724;
 }
 
 .pagy > :not([hidden]) ~ :not([hidden]) {
@@ -14,43 +15,33 @@
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 600;
-  color: rgb(107 114 128);
-}
-
-.pagy .page.gap {
-  /* if you need to customize it */
 }
 
 .pagy .page a {
   display: block;
   text-decoration: none;
-  border-radius: 0.5rem;
-  background-color: rgb(229 231 235);
   padding: 0.25rem 0.75rem;
   color: inherit;
 }
 
 .pagy .page a:hover {
-  background-color: rgb(209 213 219);
+  color: #ebbcba;
 }
 
 .pagy .page.active a {
   cursor: default;
-  background-color: rgb(156 163 175);
-  color: rgb(255 255 255);
+  color: #ebbcba;
 }
 
 .pagy .page.disabled a {
   cursor: default;
-  background-color: rgb(243 244 246);
-  color: rgb(209 213 219);
+  color: #6e6a86;
 }
 
 .pagy .pagy-combo-input, .pagy.pagy-items-selector-js {
   white-space: nowrap;
   display: inline-block;
   border-radius: 0.5rem;
-  background-color: rgb(229 231 235);
   padding: 0.125rem 0.75rem;
 }
 
@@ -58,5 +49,4 @@
   line-height: 1.5rem;
   border-radius: 0.375rem;
   border-style: none;
-  background-color: rgb(243 244 246);
 }
