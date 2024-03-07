@@ -1,5 +1,6 @@
 .pagy {
   display: flex;
+  justify-content: center;
 }
 
 .pagy > :not([hidden]) ~ :not([hidden]) {
