@@ -4,9 +4,9 @@
   <div>
     <h2 class="mb-5"><%= link_to blog_post.title, blog_post %></h2>
     <% if blog_post.draft? %>
-      <div class="px-2 mb-4 rounded bg-rosePine-muted inline-block">Draft</div>
+      <div class="px-2 mb-4 rounded text-white bg-rosePine-muted inline-block">Draft</div>
     <% elsif blog_post.scheduled? %>
-      <div class="px-2 mb-4 rounded bg-rosePine-pine inline-block">Scheduled</div>
+      <div class="px-2 mb-4 rounded text-white bg-rosePine-pine inline-block">Scheduled</div>
     <% end %>
     <%= blog_post.content %>
   </div>

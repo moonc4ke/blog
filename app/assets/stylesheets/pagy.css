@@ -1,7 +1,7 @@
 .pagy {
   display: flex;
   justify-content: center;
-  color: #e0def4;
+  color: #575279;
 }
 
 .pagy > :not([hidden]) ~ :not([hidden]) {
@@ -25,17 +25,19 @@
 }
 
 .pagy .page a:hover {
-  color: #ebbcba;
+  color: #000;
+  font-weight: bold;
 }
 
 .pagy .page.active a {
   cursor: default;
-  color: #ebbcba;
+  color: #000;
+  font-weight: bold;
 }
 
 .pagy .page.disabled a {
   cursor: default;
-  color: #6e6a86;
+  color: #9893a5;
 }
 
 .pagy .pagy-combo-input, .pagy.pagy-items-selector-js {
